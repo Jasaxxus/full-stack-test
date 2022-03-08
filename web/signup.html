@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Signup</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://getbootstrap.com/docs/3.3/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form-signup">
+        <h2 class="form-signup-heading">Fill in the data</h2>
+        <label for="inputFirstName" class="sr-only">First name</label>
+        <input type="text" id="inputFirstName" class="form-control" placeholder="First name" required autofocus>
+        <label for="inputLastName" class="sr-only">Last name</label>
+        <input type="text" id="inputLastName" class="form-control" placeholder="Last name" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="inputPasswordConfirm" class="sr-only">Password confirm</label>
+        <input type="password" id="inputPasswordConfirm" class="form-control mb" placeholder="Password confirm" required>
+        <label for="inputStreet" class="sr-only">Street</label>
+        <input type="text" id="inputStreet" class="form-control" placeholder="Street" required autofocus>
+        <label for="inputCity" class="sr-only">City</label>
+        <input type="text" id="inputCity" class="form-control" placeholder="City" required autofocus>
+        <select id="chooseCountry" class="form-control" name="select">
+          <option value="LV">Latvia</option>
+          <option value="UK">United Kingdom</option>
+          <option value="IT">Italy</option>
+          <option value="UA">Ukraine</option>
+          <option value="UZ">Uzbekistan</option>
+          <option value="Default" selected>Country</option>
+        </select>
+        <label for="inputPostcode" class="sr-only">Postcode</label>
+        <input type="text" id="inputPostcode" class="form-control" placeholder="Postcode" required autofocus>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="accept-terms"> Accept terms and conditions
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+      </form>
+    </div> <!-- /container -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
